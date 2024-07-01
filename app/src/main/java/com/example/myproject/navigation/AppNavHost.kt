@@ -10,8 +10,8 @@ import androidx.navigation.compose.rememberNavController
 import com.example.myproject.ui.theme.screens.home.HomeScreen
 import com.example.myproject.ui.theme.screens.login.LoginScreen
 import com.example.myproject.ui.theme.screens.products.AddProductsScreen
-import com.example.wazitoecommerce.ui.theme.screens.products.ViewProductsScreen
-import com.example.wazitoecommerce.ui.theme.screens.signup.SignupScreen
+import com.example.myproject.ui.theme.screens.products.ViewProductsScreen
+import com.example.myproject.ui.theme.screens.signup.SignupScreen
 
 
 @Composable

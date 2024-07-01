@@ -1,4 +1,4 @@
-package com.example.wazitoecommerce.ui.theme.screens.signup
+package com.example.myproject.ui.theme.screens.signup
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column

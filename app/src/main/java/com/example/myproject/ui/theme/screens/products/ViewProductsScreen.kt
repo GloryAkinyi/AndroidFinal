@@ -1,4 +1,4 @@
-package com.example.wazitoecommerce.ui.theme.screens.products
+package com.example.myproject.ui.theme.screens.products
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -29,7 +29,6 @@ import androidx.navigation.compose.rememberNavController
 import coil.compose.rememberAsyncImagePainter
 import com.example.myproject.data.ProductViewModel
 import com.example.myproject.models.Product
-
 
 @Composable
 fun ViewProductsScreen(navController:NavHostController) {

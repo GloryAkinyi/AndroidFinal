@@ -61,7 +61,7 @@ class ProductViewModel(var navController:NavHostController, var context: Context
         products:SnapshotStateList<Product>):SnapshotStateList<Product>{
         progress.show()
         var ref = FirebaseDatabase.getInstance().getReference()
-                    .child("Products")
+            .child("Products")
         ref.addValueEventListener(object: ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 products.clear()
@@ -79,6 +79,7 @@ class ProductViewModel(var navController:NavHostController, var context: Context
         })
         return products
     }
+
 
     fun deleteProduct(productId:String){
         var ref = FirebaseDatabase.getInstance().getReference()

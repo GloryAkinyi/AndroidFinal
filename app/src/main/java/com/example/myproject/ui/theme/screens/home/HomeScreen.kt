@@ -125,7 +125,17 @@ fun HomeScreen(navController:NavHostController){
                     horizontalAlignment = Alignment.CenterHorizontally
                 ){
                     //Body of the screen
-                    Text(text = "Homepage")
+                   
+                    
+                    Text(
+                        text = "Zahra",
+                        fontSize = 25.sp,
+                        color = Color.Green
+                    )
+
+                   
+                    
+                    
 
                 }
 
